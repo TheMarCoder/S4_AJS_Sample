@@ -1,0 +1,9 @@
+cd webApp
+npm install
+
+cp -R ../webApp/app/ ../src/main/resources
+cp -R ../src/main/resources/app/* ../src/main/resources/static
+rm -r ../src/main/resources/app
+cp -R ../webApp/bower_components ../src/main/resources/static
+cd ..
+./scripts/restart_backend

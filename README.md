@@ -1,1 +1,1 @@
-# S4_AJS_Sample
+# Spring4_AngularJS_Sample_Console

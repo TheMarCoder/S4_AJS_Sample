@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>TheMarCoder playground</title>
+  </head>
+  <body>
+    <h2>Marco's Spring 4 and AngularJS playground</h2>
+    <ul class="menu">
+      <li><a href="#!/view1">view1</a></li>
+    </ul>
+
+
+    <div ng-view></div>
+
+    <!-- bower -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
+    <!-- app -->
+    <script src="app.js"></script>
+    <script src="view1/view1.js"></script>
+
+    <!-- components -->
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
+
+
+    <button type="button" class="btn btn-primary">Button to test bootstrap</button>
+  </body>
+</html>

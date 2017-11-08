@@ -1,1 +1,1 @@
-# Spring4_AngularJS_Sample_Console
+# Spring4_AngularJS_Sample
